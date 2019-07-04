@@ -139,14 +139,14 @@ July, 2019 ★ -->
 
 	<div class="box fade-in two">
 	<nav>
-		<a href=" ">一</a> ◦ <a href=" ">二</a> ◦ <a href=" ">三</a>
+		<a href=" " title="one">一</a> ◦ <a href=" " title="two">二</a> ◦ <a href=" " title="three">三</a>
 	</nav>
 	</div>
 </div>
 	
 	
 	
-	<!-- banjo kazooie ends -->
+	<!-- banjo kazooie ends here -->
 
 	<br>
 
