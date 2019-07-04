@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- the kidz bop gang own this code 
+horde of the damned, i love you, you're great, keep it up
+July, 2019 ★ -->
+<html>
+<head>
+<style>
+	
+		body {
+		
+  		background-repeat: no-repeat;
+		background-color: black;
+		background-size: cover;
+		color: #ffffff;
+
+		}
+
+
+		div.a{
+		text-align: center;
+		}
+
+
+		p1 {
+		color: #ffffff;
+		font-size: 30px;
+		}
+
+
+		nav {
+		text-align: center;
+		font-size: 12px;
+		}
+		
+
+		a:link {
+		color: white;
+		}
+
+
+		a:visited {
+		color: white;
+		}
+
+
+		a:hover {
+		color: red;
+		}
+
+
+		a:active {
+		color: blue;
+		}
+
+
+		p {
+		font-size: 7px;
+		}
+
+
+<!-- animation code starts -->
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+@-webkit-keyframes fadeInDown { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeInDown { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeInDown { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+	}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+	}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+
+.fadeInDown.four {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeInDown ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeInDown ease-in 1;
+  animation:fadeInDown ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  animation-duration:2s;
+}
+
+
+</style>
+
+<body>
+<title>bop</title>
+<br><br><br><br><br><br><br><br><br><br>
+
+	<!-- starts sick wicked awesome graphics wowowow -->
+
+<div class="container">
+	<div class="box fade-in one">
+	<div class="a">
+
+		<hr width="30%" align="center">
+		<span><h1>表題</h1></span>
+		<hr width="30%" align="center">
+	</div>
+	</div>
+	
+
+	<div class="box fade-in two">
+	<nav>
+		<a href=" ">一</a> ◦ <a href=" ">二</a> ◦ <a href=" ">三</a>
+	</nav>
+	</div>
+</div>
+	
+	
+	
+	<!-- banjo kazooie ends -->
+
+	<br>
+
+	<div class="box fadeInDown four">
+	<center>
+		<p>Final Fantasy XIV | ファイナルファンタジーXIV</p>
+		<p>©2010 - 2019 SQUARE ENIX CO., LTD.</p>
+	</center>
+	</div>
+
+</body>
+</html>
